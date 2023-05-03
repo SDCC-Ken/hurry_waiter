@@ -1,0 +1,39 @@
+/*
+SPD3245 Web System and Web Technologies
+Group Project
+Chan Kwan Wing(14011142S)
+Lee Chun Wing(14009202S)
+Ng Nam Yung(14063612S)
+Yim Kan Yeung(14077120S)
+*/
+/* Control the format of the table*/
+table, td, th{
+	border-collapse:collapse;
+	border:1px solid gray;
+	text-align:center;
+}
+table{
+	width:100%;
+}
+.body tr:hover{
+	background-color:#0F0;
+}
+.body td{width:33%;}
+
+/* Control the table topic */	
+.head {
+	font-size: x-large;
+	background-color:#FFB6C1;
+}
+
+/* Control each cell of the table(Not include the first row)*/
+.body{
+	background-color:#FAFAD2;
+}
+
+/* Control the h1(big topic), if put in header the result will be a bit difference */
+h1{
+	line-height:200%;
+}
+
+

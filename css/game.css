@@ -1,0 +1,84 @@
+/*
+SPD3245 Web System and Web Technologies
+Group Project
+Chan Kwan Wing(14011142S)
+Lee Chun Wing(14009202S)
+Ng Nam Yung(14063612S)
+Yim Kan Yeung(14077120S)
+*/
+#my_canvas{ background:#FFF; border:#000 1px solid;height:630px;width:87%;display:inline-block;}
+
+.navbar   {height:10%;width:99%;border:#000 solid 1px;}
+.top      {width: 33.0%;display:inline-block;text-align:center;font-size:25px;}
+#up_btn{
+background:url(../img/up.png) no-repeat center center;
+width:100.0%;height:50%;border:#000 solid 1px;cursor:pointer;
+}
+#down_btn{
+background:url(../img/down.png) no-repeat center center;
+width:100.0%;height:50%;border:#000 solid 1px;cursor:pointer;
+}
+.control  {height:630px;width: 12.0%;display:inline-block;}
+.space   {height:5%;width: 99.0%;border:#000 solid 1px;text-align:center;font-size:30px;cursor:pointer;}
+.no{display:none;}
+
+#winorlose{width: 100.0%;height:100%;left:0%;top:0%;text-align:center;z-index:2;position:absolute; alignment-baseline:central;}
+#winorlose p{margin:0 0 0 0;font-size:75px;}
+#rankingtable{width:100%;font-size:36px;}
+#rankingtable td{width:7%;}
+.close{display:none;}
+.open{display:block;}
+.opent{display:block; opacity:0.8; background-color:#FF0;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: pic;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction:normal;
+	-webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: pic;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count:1;
+	animation-direction: alternate;
+	animation-play-state: running;
+}
+
+@-webkit-keyframes pic {
+    0%   {top:-1000px;}
+	10%  {top:-800px;}
+	20%  {top:-600px;}
+	30%  {top:-400px;}
+	40%  {top:-200px;}
+	50%  {top:0px;}
+	55%  {top:-100px;};
+	60%  {top:0px;}
+	65%  {top:-80px;};
+	70%  {top:0px;}
+	75%  {top:-60px;}
+	80%  {top:0px;}
+	85%  {top:-40px;}
+	90%  {top:-0px;}
+	95%  {top:-20px;}
+    100% {top:0px;}
+}
+
+@keyframes pic {
+    0%   {top:-1000px;}
+	10%  {top:-800px;}
+	20%  {top:-600px;}
+	30%  {top:-400px;}
+	40%  {top:-200px;}
+	50%  {top:0px;}
+	55%  {top:-100px;};
+	60%  {top:0px;}
+	65%  {top:-80px;};
+	70%  {top:0px;}
+	75%  {top:-60px;}
+	80%  {top:0px;}
+	85%  {top:-40px;}
+	90%  {top:-0px;}
+	95%  {top:-20px;}
+    100% {top:0px;}
+}

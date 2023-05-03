@@ -1,0 +1,48 @@
+<!--
+SPD3245 Web System and Web Technologies
+Group Project
+Chan Kwan Wing(14011142S)
+Lee Chun Wing(14009202S)
+Ng Nam Yung(14063612S)
+Yim Kan Yeung(14077120S)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "utf-8"/>
+<title> Hurry Waiter </title>
+<link rel="stylesheet" href ="css/main.css" type="text/css"/>
+<script src="js/cookie.js" language="javascript"></script>
+<script src="js/index.js" language="javascript"></script>
+</head>
+<body>
+<header>
+<img id="waiter" src="img/waiter.jpg" alt="waiter">
+<h1>Hurry Waiter </h1>
+</header>
+<nav>
+<a href="index.html"><div id="newgame" class="button button--aylen">New Game</div></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="instruction.html"><div id="instruction" class="button button--aylen">Instruction</div></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="ranking.html"><div id="ranking" class="button button--aylen">Ranking</div></a>
+</nav>
+<main>
+<form id="form" style="margin-left:auto;margin-right:auto;text-align:center; padding-top:5%;font-size:30px; width:50%;">
+<fieldset>
+<label for="username">User name:</label>
+<input type="text" name="username" id="username" placeholder="your name here" /><br/>
+<label for="game_level">Game Difficulty: </label>
+<select name="game_level">
+<option value="20">Easy</option>
+<option value="40">Middle</option>
+<option value="60">Difficult</option>
+</select><br/>
+<div id="newgame" class="button button--aylen" onclick="playgame();">Play</div>
+</fieldset>
+</form>
+</main>
+<footer>
+Copyright &copy; 2015 SPD3245 Group Project<br />
+Designed By Chan Kwan Wing(14011142S),Lee Chun Wing(14009202S),Ng Nam Yung(14063612S),Yim Kan Yeung(14077120S)
+</footer>
+</body>
+</html>
